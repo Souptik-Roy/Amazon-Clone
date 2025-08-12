@@ -4,7 +4,7 @@ A simple Amazon-inspired e-commerce homepage built using HTML, CSS.
 This project replicates the look and feel of Amazon’s front page, including navigation, product sections, and footer links.
 
 # 🔗 Live Demo
-[View Website]('https://amazon-clone-souptik-roy.netlify.app/')
+[View Website](https://amazon-clone-souptik-roy.netlify.app/)
 
 # ✨ Features
 <ol>
