@@ -7,7 +7,7 @@
 
 /* Navigation Bar */
 .navBar {
-    height: 60px;
+    height: 50px;
     width: 100%;
     background-color: #0F1111;
     color: white;
@@ -142,3 +142,100 @@
     top:90%;
     font-weight: 700;
 }
+/* Navigation Bar */
+#nav-main {
+    width: 100%;
+    height: 40px;
+    background-color: #232f3e;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    padding: 0 1rem;
+}
+
+.main-panel {
+    height: 100%;
+    width: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 700;
+    font-size: 1.2rem;
+    margin-right: 3rem;
+}
+
+.panel-icon {
+    font-size: 1.20rem;
+    margin-right: 0.3rem;
+}
+
+.nav-banner {
+    display: flex;
+    align-items: center;
+    white-space: nowrap;
+    gap: 0.6rem;
+}
+
+/* Hero Section */
+.hero-image {
+    background: url("hero_image.jpg") ;
+    background-size: cover;
+
+    width: 100%;
+    height: 400px;
+    /* margin-top:10px; */
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-message {
+    background-color: #fff;
+    color: #000;
+    font-weight: 700;
+    font-size: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30px;
+    width: 80%;
+    margin-bottom: 1rem;
+    border-radius: 4px;
+}
+
+.hero-message a {
+    color: #007185;
+    text-decoration: none;
+}
+
+/* Shopping Section */
+.shopping-section {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    background-color: rgb(253, 231, 242);
+    padding: 1rem 0;
+}
+
+.box {
+    height: 300px;
+    width: 20%;
+    min-width: 200px;
+    padding: 20px 0 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box-img {
+    height: 90%;
+    width: auto;
+    object-fit: contain;
+    padding: 5px;
+}
+
+
+
+
