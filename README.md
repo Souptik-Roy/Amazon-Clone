@@ -3,4 +3,5 @@ A duplicate Amazon Clone to show my Frontend Skill
 Work:
 <ul>
   <li>Nav bar :2 items</li>
+  <li>Contens page complete</li>
 </ul>
