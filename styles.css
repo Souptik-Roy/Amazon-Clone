@@ -13,6 +13,7 @@
     color: white;
     display: flex;
     align-items: center; 
+    justify-content:space-evenly;
 }
 
 /* Amazon Logo Container */
@@ -60,4 +61,84 @@
     color: white;
     display: flex;
     align-items: center;
+}
+
+
+/* box3 */
+#search-bar {
+    display: flex;
+    align-items: center; /* ✅ Vertically center items */
+    width: 600px;
+    height: 45px;
+    background-color: #0F1111;
+    justify-content: space-evenly;
+    border: 2px solid transparent;
+    box-sizing: border-box;
+    transition: border-color 0.3s ease;
+}
+
+#search-bar:hover {
+    border-color: #febd69;
+}
+
+.search-select {
+    background-color: #f3f3f3;
+    height: 100%; /* ✅ Matches parent's height */
+    width: 40px;
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    border: none;
+    font-size: 1rem;
+    outline: none;
+}
+
+.search-input {
+    width: 100%;
+    height: 100%; /* ✅ Matches parent's height */
+    font-size: 1.1rem;
+    border: none;
+    outline: none;
+}
+
+#search-icon {
+    width: 45px;
+    height: 100%; /* ✅ Matches parent's height */
+    background-color: #febd69;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2rem;
+    color: #0F1111;
+}
+
+/* box4 */
+.one-signin {
+    font-size: 0.7rem;
+    color: #ffffff;
+    width:100px;
+    height:14px;
+}
+.two-signin {
+    font-size: 1rem;
+    color: #ffffff;
+    width:100px;
+    height:15px;
+    font-weight: 700;
+}
+/* box5 */
+.cart-div{
+    display: flex;
+}
+
+.cart-div i{
+    font-weight: 700;
+    font-size:2rem;
+}
+.cart{
+    top:90%;
+    font-weight: 700;
 }
