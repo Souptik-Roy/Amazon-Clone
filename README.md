@@ -23,4 +23,5 @@ This project replicates the look and feel of Amazon’s front page, including na
 
 <li> CSS – Styling and layout
 
+
 </ol>
